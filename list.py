@@ -13,4 +13,4 @@ new = []
 for elem in a:
     if elem in b:
         new.append(elem)
-        print("Повторения найдены", new)
+print("Повторения найдены", new)
