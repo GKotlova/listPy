@@ -4,4 +4,13 @@ for i in a:
     if i > 2:
         print(i)
 
-
+print("Программа ищет повторения в списках")
+print("Новый список")
+b = [1,2,1,1,3,7,5,111,3,6,77,7,99,4,1]
+print("Первый список", a)
+print("Второй список список", b)
+new = []
+for elem in a:
+    if elem in b:
+        new.append(elem)
+        print("Повторения найдены", new)
